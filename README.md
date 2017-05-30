@@ -2,12 +2,18 @@
 
 ## Requirements
 
-`pip install eve`
+```bash
+pip install eve
 
-`docker pull mongo`
+docker pull mongo
+```
 
 ## Run the example
 
-`docker run -p 27017:27017 mongo`
+```bash
+docker run -p 27017:27017 mongo
+```
 
-`python run.py`
+```bash
+python run.py
+```
